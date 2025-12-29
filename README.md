@@ -19,6 +19,7 @@ This tool requires **Nmap** to be installed on the host system.
 ```bash
 sudo apt update
 sudo apt install nmap
+pip install fpdf2 
 git clone https://github.com/mindfliphacks/multi-ip-scanner-nmap.git
 cd multi-ip-scanner-nmap
 python3 multi-ip-scanner.py
